@@ -1,0 +1,23 @@
+body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+body a {
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: red;
+}
+
+body a:hover {
+	transition: all .5s;
+	color: blue;
+}
