@@ -1,0 +1,72 @@
+#header-text-4 .bg {
+    background-image: url('../img/airplus12661.jpg');
+    background-repeat: No-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:1;
+}#header-text-4--0 .bg {
+    background-image: url('../img/airplusmob10f9e.jpg');
+    background-repeat: No-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.5;
+}#header-text-4--1 .bg {
+    background-image: url('../img/airplusmob10f9e.jpg');
+    background-repeat: No-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity: 0.5;
+}
+#inner-title .bg-wrap {
+	background: linear-gradient(to bottom, #ffffff, #eeeeee);
+}
+#desc-carousel .bg-wrap {
+	background: linear-gradient(to bottom, #ffffff, #d1d7dd);
+}#benefits-3col-12 .bg-wrap {
+    background: #d1d7dd;
+}
+
+#inner-title--0 .bg-wrap {
+	background: #eeeeee;
+}#benefits-3col-12--0 .bg-wrap {
+    background: #eeeeee;
+}
+#price-3col .bg-wrap {
+    background-color: #F4F5F6;
+}
+
+#price-3col .bg {
+	background-size: cover;
+	background-position: center center;
+	opacity: 0.3;
+	background-image: url('../img/1473323502_apple-airpods-00-0089093.jpg');
+}#testimonial-2col .bg {
+    background-image: url('../img/apple-airpods06d8.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.2;
+}#panel-search .bg-wrap {
+    background: #ffffff;
+}
+#benefits-3col-3 .bg-wrap {
+    background: #ffffff;
+}
+
+#benefits-2col-8 .bg {
+	opacity: 0.3;
+	background-size: contain;
+	background-position: center center;
+	background-image: url('../img/map.png');
+}
+#benefits-2col-8 .bg-wrap {
+	background: rgba(162, 170, 177, 0.23);
+}
+#benefits-3col-2 .bg {
+	background-size: contain;
+	background-position: center center;
+	opacity: 0.2;
+	background-image: url('../img/map.png');
+}#desc-accordion--0 .bg-wrap{
+	background-color: #f4f4f4;
+}
