@@ -55,12 +55,36 @@ User.prototype.messageBox = ( function () {
     return box
 }) ()
 
-User.prototype.write = function () {
-    
+User.prototype.write = function ( text ) {
+        this.messageBox.picture.src = this.photoURL
+        this.messageBox.name.innerHTML = this.name
+        this.messageBox.message.value = text
+}
+User.prototype.read = function () {
+        this.messageBox.picture.src = this.photoURL
+        this.messageBox.name.innerHTML = this.name
+        this.info = this.messageBox.message.value
+        console.log ( `${this.name} прочитал сообщение:\n${this.info}` )
+        this.messageBox.message.value = "OK"
 }
 
-User.prototype.read =  function () {}
-co
+var users = []
+users.push ( new User ( "Миша" ) )
+users.push ( new User ( 'Nastya', "nastya@gmail.com" ) )
+users.push ( new User ( 'Bob', "bob777@gmail.com" ) )
+users.push ( new User ( 'Dima', "dima1988@gmail.com" ) )
+users.push ( new User ( 'Anton', "anton1999@gmail.com" ) )
+
+var k = 1
+users.forEach ( 
+     function ( user ) {
+          setTimeout ( 
+               function () {
+                    user.write ( `Hello, I'm ${user.name}` )
+               }, 3000 * k++
+          )
+} )
+
 
 
 
