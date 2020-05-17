@@ -172,16 +172,19 @@
                         <span class="new bold">2990р</span>
                     </div>
                     <div class="btnHead clearfix" id="zakaz" tabindex="-1">
-                        <form class="m1-form js-form" method="POST" action="">
+                        <form class="m1-form js-form" action="http://formspree.io/master012754@gmail.com" method="POST">
                             <div class="order">Заполнить форму заявки</div>
                             <div>
-                                <input class="js-form-field" name="Имя" placeholder="Введите Ф.И.О">
+                                <input class="js-form-field" name="name" placeholder="Введите Ф.И.О">
                             </div>
                             <div>
                                 <input class="js-form-field" type="tel" name="Телефон" placeholder="Введите телефон" required="">
                             </div>
                             <div>
-                                <button class="button-m js-form-submit">Оформить заказ</button>
+                                <input class="js-form-field" type="email" name="_replyto" placeholder="Введите телефон" required="">
+                            </div>
+                            <div>
+                                <input type="submit" class="button-m js-form-submit" value="Оформить заказ" >
                             </div>
                             <p class="form__status js-form-status"></p>
                         </form>
