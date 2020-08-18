@@ -29,12 +29,11 @@
             </div>
             <div class="section clearfix">
                 <div class="b1-title">
-                    <h1 class="m900">Наушники
-                        <br>
-                        <span>AirPods 2</span>
+                    <h1 class="m900">
+                        <span>AirPods Pro</span>
                     </h1>
                     <h2>
-                        <span>100% качество</span>
+                        <span>Лучшая цена на рынке</span>
                     </h2>
                     <p>Привезённые из Америки.
                         <br>
@@ -172,7 +171,7 @@
                         <span class="new bold">2990р</span>
                     </div>
                     <div class="btnHead clearfix" id="zakaz" tabindex="-1">
-                        <form class="m1-form js-form" action="http://formspree.io/master012754@gmail.com" method="post">
+                        <form class="m1-form js-form" method="post">
                             <div class="order">Заполнить форму заявки</div>
                             <div>
                                 <input class="js-form-field" name="name" placeholder="Введите Ф.И.О">
@@ -188,9 +187,9 @@
                             </div>
                             <p class="form__status js-form-status"></p>
                         </form>
-                        <div class="right">Акция продлится<br>до
+                        <!--<div class="right">Акция продлится<br>до
                             <span class="js-tomorrow">6 мая 2020 г.</span>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -211,6 +210,34 @@
                     links[i].href = 'tel:' + links[i].textContent.replace(/[^\d+]/g, '');
                 }
             })();
+            $(document).ready(function() {
+                $("form").submit(function() {
+                    var formID = $(this).attr('id');
+                    var formNm = $('#' + formID);
+                    var message = $(formNm).find("#submit");
+                    var formTitle = $(formNm).find(".title-general");
+                    $.ajax({
+                        type: "POST",
+                        url: '/php/contact-form.php',
+                        beforeSend: function(){
+                            message.find('span').html(`
+							<img src="/img/loader.gif" alt="" />
+						`);
+                        },
+                        data: formNm.serialize(),
+                        success: function(data) {
+                            $('input, textarea').not(':input[type=submit], :input[type=hidden]').val('');
+                            $('input:checked').prop('checked', false);
+                            message.find('span').text('Данные успешно отправлены');
+                            dataLayer.push({'event': 'contactUs'});
+                        },
+                        error: function(jqXHR, text, error) {
+                            message.find('span').text("Ошибка отправки попробуйте ещё раз");
+                        }
+                    });
+                    return false;
+                });
+            });
         </script>
         <script src="js/script.js"></script>
     </body>

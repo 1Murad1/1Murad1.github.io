@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199aa5a4-8ec6-473a-a4ec-f3c593bca8d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../land_airPods_pro/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../land_airPods_pro/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../land_airPods_pro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../land_airPods_pro/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8airplus-007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus-001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus-002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus-003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus-004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus-005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus-006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus-007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus-009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplus12661.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/airplusmob10f9e.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,20 +29,12 @@
   </component>
   <component name="ProjectId" id="1bgRZ5sd4yw2lEdURX0reqxb5Bz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,23 +55,23 @@
       <workItem from="1589630713920" duration="8633000" />
       <workItem from="1589701299559" duration="635000" />
       <workItem from="1589707424278" duration="418000" />
+      <workItem from="1591803600416" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
